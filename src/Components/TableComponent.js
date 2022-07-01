@@ -104,6 +104,12 @@ export default function TableComponent() {
         components={{
           Toolbar: GridToolbar,
         }}
+        componentsProps={{
+          toolbar: {
+            showQuickFilter: true,
+            quickFilterProps: { debounceMs: 500 },
+          },
+        }}
         sx={{
           border: 0,
           m: 2,

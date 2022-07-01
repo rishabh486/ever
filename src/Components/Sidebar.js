@@ -22,38 +22,38 @@ function Sidebar() {
       </div>
       <div className="side-bar-contents">
         {" "}
-        <DashboardIcon />
-        <h3>Dashboard</h3>
+        <DashboardIcon style={{}} />
+        <h3 className="heading-1">Dashboard</h3>
       </div>
       <div className="side-bar-contents">
         {" "}
         <ShopIcon />
-        <h3>My Shop</h3>
+        <h3 className="heading-1">My Shop</h3>
       </div>
       <div className="side-bar-contents">
         {" "}
         <UpgradeIcon />
-        <h3>Upgrade</h3>
+        <h3 className="heading-1">Upgrade</h3>
       </div>
       <div className="side-bar-contents">
         {" "}
         <SavedSearchIcon />
-        <h3>Research Tools</h3>
+        <h3 className="heading-1">Research Tools</h3>
       </div>
       <div className="side-bar-contents">
         {" "}
         <AccessibilityIcon />
-        <h3>Research Tools</h3>
+        <h3 className="heading-1">Research Tools</h3>
       </div>
       <div className="side-bar-contents">
         {" "}
         <SavedSearchIcon />
-        <h3>Research Tools</h3>
+        <h3 className="heading-1">Research Tools</h3>
       </div>
       <div className="side-bar-contents">
         {" "}
         <BookmarkBorderIcon />
-        <h3>Wishlist</h3>
+        <h3 className="heading-1">Wishlist</h3>
       </div>
       <div class="ever-title-bottom">
         <div class="icon-badge">
