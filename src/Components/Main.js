@@ -1,10 +1,13 @@
 import React from "react";
 import { design } from "../Assets/index";
 import BCard from "./Card";
+import "./table.css";
 function Main() {
   return (
     <div>
-      <img className="design-image" src={design} />
+      <div className="hero">
+        <img className="design-image" src={design} />
+      </div>
       <div className="card-box">
         <BCard />
       </div>

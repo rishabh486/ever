@@ -8,9 +8,12 @@ body {
   padding: 0;
   background: #f5f5f5;
 }
+.hero {
+  width: 70%;
+}
 .sidebar {
   height: 100%;
-  width: 450px;
+  width: 40%;
   background: #ffffff;
   display: flex;
   flex-direction: column;
@@ -83,11 +86,12 @@ body {
   box-shadow: 0px 4px 100px 5px rgba(0, 0, 0, 0.06);
   border-radius: 15px;
 }
-.table {
+
+/* /* .table {
   margin-left: 200px;
 }
 .design-image {
-  width: 1250px;
+  width: 70%;
   height: 500px;
   position: relative;
 }
@@ -141,4 +145,7 @@ body {
   margin-left: 5px;
   color: #000000;
   text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.table {
+  margin-left: 200px;
 }

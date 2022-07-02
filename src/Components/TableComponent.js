@@ -6,24 +6,19 @@ import { DataGrid, GridToolbar } from "@mui/x-data-grid";
 import { useDemoData } from "@mui/x-data-grid-generator";
 import { Update } from "@material-ui/icons";
 import { ListItemSecondaryAction } from "@mui/material";
+import {
+  ResponsiveContainer,
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Legend,
+} from "recharts";
+import { useData } from "../Context/dataContext";
 export default function TableComponent() {
-  const [callData, setCallData] = useState([]);
+  const { callData } = useData();
 
-  const apiCall = async () => {
-    try {
-      const response = await axios.get(
-        "https://everbee-web-dev-ext.herokuapp.com/listing?limit=20&offset=10"
-      );
-      console.log(response);
-      const responseData = [...response.data.data];
-      setCallData((previous) => (previous = responseData));
-    } catch (e) {
-      console.log(e.response);
-    }
-  };
-  useEffect(() => {
-    apiCall();
-  }, []);
   const detailsRows = callData.map((item) => {
     return {
       Images: item.Images,
@@ -39,17 +34,33 @@ export default function TableComponent() {
   });
 
   return (
-    <div
-      style={{
-        width: 800,
-        height: 600,
-        backgroundColor: "white",
-        borderRadius: 20,
-        borderBottom: 0,
-        GridLinesVisibility: "None",
-      }}
-    >
+    <div>
+      {/* <div>
+        <ResponsiveContainer width="100%" aspect={3}>
+          <LineChart
+            data={callData}
+            width={300}
+            height={200}
+            margin={{ top: 5, right: 20, left: 20, bottom: 5 }}
+          >
+            <CartesianGrid />
+            <XAxis dataKey="quantity" interval={"preserveStartEnd"} />
+            <Legend />
+            <YAxis dataKey="reviews" interval={"preserveStartEnd"} />
+            <Legend />
+            <Line dataKey="reviews" />
+          </LineChart>
+        </ResponsiveContainer>
+      </div> */}
       <DataGrid
+        style={{
+          width: 800,
+          height: 600,
+          backgroundColor: "white",
+          borderRadius: 20,
+          borderBottom: 0,
+          GridLinesVisibility: "None",
+        }}
         GridLinesVisibility="None"
         columns={[
           {
