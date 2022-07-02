@@ -14,6 +14,7 @@ import aov from "./Images/aov.png";
 import orders from "./Images/orders.png";
 import ltv from "./Images/ltv.png";
 import shops from "./Images/shops.png";
+import dot from "./Images/dot.png";
 export {
   image,
   avatar,
@@ -31,4 +32,5 @@ export {
   orders,
   ltv,
   shops,
+  dot,
 };

@@ -12,6 +12,7 @@ import {
   orders,
   ltv,
   shops,
+  dot,
 } from "../Assets/index";
 import BCard from "./Card";
 import "./table.css";
@@ -33,11 +34,17 @@ function Main() {
           <div className="todo-icon">
             <img src={todo} />
           </div>
+          <div className="dot-icon">
+            <img src={dot} />
+          </div>
         </div>
         <div className="icons-1">
           <img src={rectangle} />
           <div className="todo-icon-1">
             <img src={ticks} />
+          </div>
+          <div className="dot-icon">
+            <img src={dot} />
           </div>
         </div>
         <div className="icons-2">
@@ -45,17 +52,26 @@ function Main() {
           <div className="todo-icon-2">
             <img src={setting} />
           </div>
+          <div className="dot-icon">
+            <img src={dot} />
+          </div>
         </div>
         <div className="icons-3">
           <img src={rectangle} />
           <div className="todo-icon-3">
             <img src={night} />
           </div>
+          <div className="dot-icon">
+            <img src={dot} />
+          </div>
         </div>
         <div className="icons-4">
           <img src={rectangle} />
           <div className="todo-icon-4">
             <img src={alarm} />
+          </div>
+          <div className="dot-icon">
+            <img src={dot} />
           </div>
         </div>
       </div>
