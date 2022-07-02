@@ -1,5 +1,13 @@
 import React from "react";
-import { design, rectangle, todo } from "../Assets/index";
+import {
+  design,
+  night,
+  rectangle,
+  setting,
+  todo,
+  alarm,
+  ticks,
+} from "../Assets/index";
 import BCard from "./Card";
 import "./table.css";
 function Main() {
@@ -24,25 +32,25 @@ function Main() {
         <div className="icons-1">
           <img src={rectangle} />
           <div className="todo-icon-1">
-            <img src={todo} />
+            <img src={ticks} />
           </div>
         </div>
         <div className="icons-2">
           <img src={rectangle} />
           <div className="todo-icon-2">
-            <img src={todo} />
+            <img src={setting} />
           </div>
         </div>
         <div className="icons-3">
           <img src={rectangle} />
           <div className="todo-icon-3">
-            <img src={todo} />
+            <img src={night} />
           </div>
         </div>
         <div className="icons-4">
           <img src={rectangle} />
           <div className="todo-icon-4">
-            <img src={todo} />
+            <img src={alarm} />
           </div>
         </div>
       </div>

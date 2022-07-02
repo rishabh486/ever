@@ -215,3 +215,11 @@ body {
   top: 8px;
   right: 8px;
 }
+.card-image-parent {
+  position: relative;
+}
+.card-image {
+  position: absolute;
+  top: 28px;
+  left: 23px;
+}

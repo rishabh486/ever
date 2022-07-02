@@ -6,7 +6,7 @@ import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { Avatar } from "@mui/material";
-import { revenue, arrow } from "../Assets";
+import { revenue, arrow, todo, avatar, square } from "../Assets";
 
 export default function BCard() {
   return (
@@ -15,7 +15,9 @@ export default function BCard() {
       sx={{ width: 200, height: 170, borderRadius: 6 }}
     >
       <CardContent>
-        <Avatar src={revenue} />
+        {/* <Avatar src={avatar} /> */}
+        <img className="card-image-parent" src={square} />
+        <img className="card-image" src={revenue} />
         <Typography
           sx={{ fontSize: 17, fontFamily: "poppins" }}
           color="rgba(112, 112, 112, 1)"

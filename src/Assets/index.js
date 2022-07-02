@@ -5,4 +5,22 @@ import revenue from "./Images/revenue.png";
 import arrow from "./Images/arrow.png";
 import rectangle from "./Images/rectangle.png";
 import todo from "./Images/todo.png";
-export { image, avatar, design, revenue, arrow, rectangle, todo };
+import square from "./Images/square.png";
+import setting from "./Images/setting.png";
+import night from "./Images/night.png";
+import alarm from "./Images/alarm.png";
+import ticks from "./Images/ticks.png";
+export {
+  image,
+  avatar,
+  design,
+  revenue,
+  arrow,
+  rectangle,
+  todo,
+  square,
+  setting,
+  night,
+  alarm,
+  ticks,
+};
