@@ -15,6 +15,10 @@ import orders from "./Images/orders.png";
 import ltv from "./Images/ltv.png";
 import shops from "./Images/shops.png";
 import dot from "./Images/dot.png";
+import square1 from "./Images/square1.png";
+import square2 from "./Images/square2.png";
+import square3 from "./Images/square2.png";
+import square4 from "./Images/square2.png";
 export {
   image,
   avatar,
@@ -33,4 +37,8 @@ export {
   ltv,
   shops,
   dot,
+  square1,
+  square2,
+  square3,
+  square4,
 };

@@ -13,6 +13,11 @@ import {
   ltv,
   shops,
   dot,
+  square,
+  square1,
+  square2,
+  square4,
+  square3,
 } from "../Assets/index";
 import BCard from "./Card";
 import "./table.css";
@@ -79,6 +84,7 @@ function Main() {
       <div className="card-box">
         <BCard
           src={revenue}
+          border={square}
           name="Gross Revenue"
           content="$48670.19"
           percent="10.30%%"
@@ -88,6 +94,7 @@ function Main() {
       <div className="card-box-1">
         <BCard
           src={aov}
+          border={square1}
           name="AOV"
           content="$335.65"
           percent="12.30%"
@@ -97,6 +104,7 @@ function Main() {
       <div className="card-box-2">
         <BCard
           src={orders}
+          border={square2}
           name="Total Orders"
           content="145"
           percent="47%"
@@ -106,6 +114,7 @@ function Main() {
       <div className="card-box-3">
         <BCard
           src={ltv}
+          border={square3}
           name="LTV"
           content="$456"
           percent="27%"
@@ -115,6 +124,7 @@ function Main() {
       <div className="card-box-4">
         <BCard
           src={shops}
+          border={square4}
           name="Shop Rank"
           content="Top 5%"
           percent="54%"

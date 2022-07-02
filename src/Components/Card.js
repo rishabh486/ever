@@ -18,7 +18,7 @@ export default function BCard(props) {
     >
       <CardContent>
         {/* <Avatar src={avatar} /> */}
-        <img className="card-image-parent" src={square} />
+        <img className="card-image-parent" src={props.border} />
         <img className="card-image" src={props.src} />
         <Typography
           sx={{ fontSize: 17, fontFamily: "poppins" }}
