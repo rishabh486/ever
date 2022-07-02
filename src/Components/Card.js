@@ -14,21 +14,21 @@ export default function BCard(props) {
       style={{
         backgroundColor: "rgba(255, 255, 255, 1)",
       }}
-      sx={{ width: 200, height: 170, borderRadius: 6 }}
+      sx={{ width: 220, height: 170, borderRadius: 6 }}
     >
       <CardContent>
         {/* <Avatar src={avatar} /> */}
         <img className="card-image-parent" src={props.border} />
         <img className="card-image" src={props.src} />
         <Typography
-          sx={{ fontSize: 17, fontFamily: "poppins" }}
+          sx={{ fontSize: 20, fontFamily: "poppins" }}
           color="rgba(112, 112, 112, 1)"
           gutterBottom
         >
           {props.name}
         </Typography>
         <Typography
-          sx={{ fontSize: 15, fontFamily: "poppins" }}
+          sx={{ fontSize: 18, fontFamily: "poppins" }}
           color="rgba(0, 0, 0, 1)"
         >
           {props.content}
@@ -43,7 +43,7 @@ export default function BCard(props) {
             {props.percent}
           </Typography>
           <Typography
-            sx={{ fontSize: 15, fontFamily: "poppins" }}
+            sx={{ fontSize: 17, fontFamily: "poppins" }}
             color="rgba(0, 0, 0, 1)"
           >
             {props.visual}

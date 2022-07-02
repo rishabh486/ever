@@ -12,8 +12,9 @@ body {
   width: 70%;
 }
 .sidebar {
+  /* position: fixed; */
   height: 100%;
-  width: 30%;
+  width: 20%;
   background: #ffffff;
   display: flex;
   flex-direction: column;
@@ -109,7 +110,7 @@ body {
   justify-content: space-between;
   position: absolute;
   top: 130px;
-  left: 329px;
+  left: 300px;
 }
 .card-box-1 {
   display: flex;
@@ -117,7 +118,7 @@ body {
   justify-content: space-between;
   position: absolute;
   top: 130px;
-  left: 540px;
+  left: 530px;
 }
 .card-box-2 {
   display: flex;
@@ -125,7 +126,7 @@ body {
   justify-content: space-between;
   position: absolute;
   top: 130px;
-  left: 750px;
+  left: 760px;
 }
 .card-box-3 {
   display: flex;
@@ -133,7 +134,7 @@ body {
   justify-content: space-between;
   position: absolute;
   top: 130px;
-  left: 960px;
+  left: 990px;
 }
 .card-box-4 {
   display: flex;
@@ -141,7 +142,7 @@ body {
   justify-content: space-between;
   position: absolute;
   top: 130px;
-  left: 1170px;
+  left: 1225px;
 }
 .heading-1 {
   font-family: "Poppins";
