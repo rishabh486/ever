@@ -8,28 +8,30 @@ import Typography from "@mui/material/Typography";
 import { Avatar } from "@mui/material";
 import { revenue, arrow, todo, avatar, square } from "../Assets";
 
-export default function BCard() {
+export default function BCard(props) {
   return (
     <Card
-      style={{ backgroundColor: "rgba(255, 255, 255, 1)" }}
+      style={{
+        backgroundColor: "rgba(255, 255, 255, 1)",
+      }}
       sx={{ width: 200, height: 170, borderRadius: 6 }}
     >
       <CardContent>
         {/* <Avatar src={avatar} /> */}
         <img className="card-image-parent" src={square} />
-        <img className="card-image" src={revenue} />
+        <img className="card-image" src={props.src} />
         <Typography
           sx={{ fontSize: 17, fontFamily: "poppins" }}
           color="rgba(112, 112, 112, 1)"
           gutterBottom
         >
-          Gross Revenue
+          {props.name}
         </Typography>
         <Typography
           sx={{ fontSize: 15, fontFamily: "poppins" }}
           color="rgba(0, 0, 0, 1)"
         >
-          $48,670.19
+          {props.content}
         </Typography>
         <div className="box-layer">
           <img style={{ width: 10, height: 10 }} src={arrow} />
@@ -38,13 +40,13 @@ export default function BCard() {
             color="
             rgba(14, 176, 0, 1)"
           >
-            10.30%
+            {props.percent}
           </Typography>
           <Typography
             sx={{ fontSize: 15, fontFamily: "poppins" }}
             color="rgba(0, 0, 0, 1)"
           >
-            from last week
+            {props.visual}
           </Typography>
         </div>
       </CardContent>

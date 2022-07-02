@@ -7,6 +7,11 @@ import {
   todo,
   alarm,
   ticks,
+  revenue,
+  aov,
+  orders,
+  ltv,
+  shops,
 } from "../Assets/index";
 import BCard from "./Card";
 import "./table.css";
@@ -56,19 +61,49 @@ function Main() {
       </div>
 
       <div className="card-box">
-        <BCard />
+        <BCard
+          src={revenue}
+          name="Gross Revenue"
+          content="$48670.19"
+          percent="10.30%%"
+          visual=" from last week"
+        />
       </div>
       <div className="card-box-1">
-        <BCard />
+        <BCard
+          src={aov}
+          name="AOV"
+          content="$335.65"
+          percent="12.30%"
+          visual=" from last week"
+        />
       </div>
       <div className="card-box-2">
-        <BCard />
+        <BCard
+          src={orders}
+          name="Total Orders"
+          content="145"
+          percent="47%"
+          visual=" from last week"
+        />
       </div>
       <div className="card-box-3">
-        <BCard />
+        <BCard
+          src={ltv}
+          name="LTV"
+          content="$456"
+          percent="27%"
+          visual=" from last week"
+        />
       </div>
       <div className="card-box-4">
-        <BCard />
+        <BCard
+          src={shops}
+          name="Shop Rank"
+          content="Top 5%"
+          percent="54%"
+          visual=" behind you"
+        />
       </div>
     </div>
   );

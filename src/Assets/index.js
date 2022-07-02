@@ -10,6 +10,10 @@ import setting from "./Images/setting.png";
 import night from "./Images/night.png";
 import alarm from "./Images/alarm.png";
 import ticks from "./Images/ticks.png";
+import aov from "./Images/aov.png";
+import orders from "./Images/orders.png";
+import ltv from "./Images/ltv.png";
+import shops from "./Images/shops.png";
 export {
   image,
   avatar,
@@ -23,4 +27,8 @@ export {
   night,
   alarm,
   ticks,
+  aov,
+  orders,
+  ltv,
+  shops,
 };
