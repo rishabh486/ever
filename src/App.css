@@ -13,7 +13,7 @@ body {
 }
 .sidebar {
   height: 100%;
-  width: 40%;
+  width: 30%;
   background: #ffffff;
   display: flex;
   flex-direction: column;
@@ -160,4 +160,58 @@ body {
 .box-layer {
   display: flex;
   align-items: center;
+}
+.hero-icons {
+  display: flex;
+}
+.icons {
+  position: absolute;
+  top: 30px;
+  right: 200px;
+}
+.todo-icon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.icons-1 {
+  position: absolute;
+  top: 30px;
+  right: 150px;
+}
+.todo-icon-1 {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.icons-2 {
+  position: absolute;
+  top: 30px;
+  right: 100px;
+}
+.todo-icon-2 {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.icons-3 {
+  position: absolute;
+  top: 30px;
+  right: 60px;
+}
+.todo-icon-3 {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.icons-4 {
+  position: absolute;
+  top: 30px;
+  right: 15px;
+}
+.todo-icon-4 {
+  position: absolute;
+  top: 8px;
+  right: 8px;
 }

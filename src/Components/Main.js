@@ -1,5 +1,5 @@
 import React from "react";
-import { design } from "../Assets/index";
+import { design, rectangle, todo } from "../Assets/index";
 import BCard from "./Card";
 import "./table.css";
 function Main() {
@@ -14,6 +14,39 @@ function Main() {
           Take a look at the latest update for your shop PVTLmotions
         </h1>
       </div>
+      <div className="hero-icons">
+        <div className="icons">
+          <img src={rectangle} />
+          <div className="todo-icon">
+            <img src={todo} />
+          </div>
+        </div>
+        <div className="icons-1">
+          <img src={rectangle} />
+          <div className="todo-icon-1">
+            <img src={todo} />
+          </div>
+        </div>
+        <div className="icons-2">
+          <img src={rectangle} />
+          <div className="todo-icon-2">
+            <img src={todo} />
+          </div>
+        </div>
+        <div className="icons-3">
+          <img src={rectangle} />
+          <div className="todo-icon-3">
+            <img src={todo} />
+          </div>
+        </div>
+        <div className="icons-4">
+          <img src={rectangle} />
+          <div className="todo-icon-4">
+            <img src={todo} />
+          </div>
+        </div>
+      </div>
+
       <div className="card-box">
         <BCard />
       </div>
