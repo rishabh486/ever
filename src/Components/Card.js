@@ -10,7 +10,7 @@ import { revenue } from "../Assets";
 
 export default function BCard() {
   return (
-    <Card style={{}} sx={{ width: 210, height: 204, borderRadius: 6 }}>
+    <Card style={{}} sx={{ width: 190, height: 170, borderRadius: 6 }}>
       <CardContent>
         <Avatar src={revenue} />
         <Typography
