@@ -26,6 +26,9 @@ function Main() {
       <div className="card-box-3">
         <BCard />
       </div>
+      <div className="card-box-4">
+        <BCard />
+      </div>
     </div>
   );
 }

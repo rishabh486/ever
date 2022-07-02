@@ -108,32 +108,40 @@ body {
   flex-direction: row;
   justify-content: space-between;
   position: absolute;
-  top: 100px;
-  left: 429px;
+  top: 130px;
+  left: 329px;
 }
 .card-box-1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   position: absolute;
-  top: 100px;
-  left: 680px;
+  top: 130px;
+  left: 540px;
 }
 .card-box-2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   position: absolute;
-  top: 100px;
-  left: 933px;
+  top: 130px;
+  left: 750px;
 }
 .card-box-3 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   position: absolute;
-  top: 100px;
-  left: 1185px;
+  top: 130px;
+  left: 960px;
+}
+.card-box-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  top: 130px;
+  left: 1170px;
 }
 .heading-1 {
   font-family: "Poppins";
